@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+@media (max-width:900px) {
+    .container {
+        background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/fairpods-darkpink-bg.png");
+        background-size: cover;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: white;
+    }
+
+    .i {
+        height: 200px;
+        width: 150px;
+    }
+}
+
+@media (min-width:900px) {
+    .container {
+        background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/fairpods-blue-bg.png");
+        background-size: cover;
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        color: white;
+    }
+
+    .i {
+        height: 200px;
+        width: 150px;
+    }
+
+    .ep {
+        order: 1;
+    }
+
+    .p {
+        align-self: center;
+    }
+}
